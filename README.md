@@ -9,10 +9,8 @@ import SwiftUI
 
 ## VStack
 
-> A view that arranges its subviews in a vertical line.
-
-> [!TIP] 
-> Will use for aligning two or more elements vertically 
+> [!Note]
+> A view that arranges its subviews in a vertical line. 
 
 ``` swift
 struct ContentView: View {
@@ -27,4 +25,43 @@ struct ContentView: View {
 }
 ```
 
-<img src="https://github.com/KarthiRasu-iOS/Explore-SwiftUI/tree/master/reference_images" width="200" height="200">
+<img src="https://github.com/KarthiRasu-iOS/Explore-SwiftUI/blob/master/reference_images/vstack_preview.png" width="200" height="200">
+
+## HStack
+
+> [!Note]
+> A view that arranges its subviews in a horizontal line.
+
+``` swift
+struct ContentView: View {
+    var body: some View {
+        HStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+    }
+}
+```
+
+<img src="https://github.com/KarthiRasu-iOS/Explore-SwiftUI/blob/master/reference_images/hstack_preview.png" width="200" height="200">
+
+## ZStack
+
+> [!Note]
+> A view that overlays its subviews, aligning them in both axes.
+
+``` swift
+struct ContentView: View {
+    var body: some View {
+        ZStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+    }
+}
+```
+<img src="https://github.com/KarthiRasu-iOS/Explore-SwiftUI/blob/master/reference_images/zstack_preview.png" width="200" height="200">
