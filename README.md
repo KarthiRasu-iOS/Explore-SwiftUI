@@ -5,9 +5,9 @@ A practical examples of Swift UI Elements and SwiftUI API's
 import SwiftUI
 ```
 
-#Stacks
+# Stacks
 
-##VStack
+## VStack
 
 > A view that arranges its subviews in a vertical line.
 
@@ -27,4 +27,4 @@ struct ContentView: View {
 }
 ```
 
-<img src="https://github.com/KarthiRasu-iOS/Explore-SwiftUI/reference_images/vstack_preview.png" width="200" height="200">
+<img src="https://github.com/KarthiRasu-iOS/Explore-SwiftUI/tree/master/reference_images" width="200" height="200">
