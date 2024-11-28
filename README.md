@@ -25,7 +25,7 @@ struct ContentView: View {
 }
 ```
 
-<img src="https://github.com/KarthiRasu-iOS/Explore-SwiftUI/blob/master/reference_images/vstack_preview.png" width="200" height="200">
+<img src="https://github.com/KarthiRasu-iOS/Explore-SwiftUI/blob/master/reference_images/vstack_preview.png">
 
 ## HStack
 
@@ -45,7 +45,7 @@ struct ContentView: View {
 }
 ```
 
-<img src="https://github.com/KarthiRasu-iOS/Explore-SwiftUI/blob/master/reference_images/hstack_preview.png" width="200" height="200">
+<img src="https://github.com/KarthiRasu-iOS/Explore-SwiftUI/blob/master/reference_images/hstack_preview.png">
 
 ## ZStack
 
@@ -64,4 +64,4 @@ struct ContentView: View {
     }
 }
 ```
-<img src="https://github.com/KarthiRasu-iOS/Explore-SwiftUI/blob/master/reference_images/zstack_preview.png" width="200" height="200">
+<img src="https://github.com/KarthiRasu-iOS/Explore-SwiftUI/blob/master/reference_images/zstack_preview.png">
