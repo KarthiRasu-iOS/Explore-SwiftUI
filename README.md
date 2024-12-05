@@ -5,6 +5,16 @@ A practical examples of Swift UI Elements and SwiftUI API's
 import SwiftUI
 ```
 
+## SwiftUI Elements
+
+| **Category**          | **Elements**                                                                                     |
+|---------------------  |------------------------------------------------------------------------------------------------- |
+| **Stacks**            | `VStack`, `HStack`, `ZStack`                                                                     |
+| **Views**             | `Text`, `Label`, `Button`, `Image`, `List`, `ForEach`, `ScrollView`, `Section`, `ProgressView`, `Color`, `Divider` |
+| **Controls**          | `Toggle`, `Stepper`, `Slider`, `TextField`, `SecureField`, `TextEditor`, `Picker`, `ColorPicker`, `DatePicker`, `Menu` |
+| **Shapes**            | `Rectangle`, `RoundedRectangle`, `Circle`, `Ellipse`, `Capsule`, `UnevenRoundedRectangle`       |
+| **Property Wrappers** | `@State`, `@Binding`, `@Bindable`, `@StateObject`, `@ObservedObject`, `@EnvironmentObject`, `@Environment`, `@FetchRequest`, `@AppStorage`, `@SceneStorage` |
+
 # Stacks
 
 ## VStack
@@ -56,7 +66,7 @@ ZStack {
 
 ## Vertical ScrollView
 
-> [! Note]
+> [!Note]
 > By defaults scrollView uses the axes of vertical just add the ForEach
 
 
@@ -75,7 +85,7 @@ ScrollView {
 
 ## Horizontal ScrollView
 
-> [! Note]
+> [!Note]
 > Wrap the ForEach with HStack and add axes of scrollView to horizontal
 
 ```swift
